@@ -1,0 +1,15 @@
+services:
+  postgres_db:
+    image: postgres:15
+    container_name: steam_postgres 
+    environment:
+      POSTGRES_USER: postgres       # 관리자 아이디
+      POSTGRES_PASSWORD: "1234"     # #비밀번호
+      POSTGRES_DB: steam_data       # #DB 이름
+    ports:
+      - "5432:5432"                 # local, docker 연결포트넘버
+    volumes:
+      - pg_data:/var/lib/postgresql/data # 도커 삭제시에도 데이터 보존하기
+
+volumes:
+  pg_data:
