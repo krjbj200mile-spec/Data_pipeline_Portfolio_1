@@ -14,3 +14,8 @@
 - 실행 화면 : 
 
 - 문제 해결 방법 : 
+
+- API 참고 문서 : 
+	- Steam API 공식 문서 주소: https://partner.steamgames.com/doc/webapi/ISteamUser?l=koreana
+	- 게임 가격 관련 API 문서 주소 (IsThereAnyDeal-게임 판매처 간 가격 비교 사이트):  
+		https://isthereanydeal.com/apps/
